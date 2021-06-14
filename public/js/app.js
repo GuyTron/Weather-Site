@@ -17,10 +17,6 @@ weatherForm.addEventListener('submit', (e)=>{
             message1.textContent=data.location
             message2.textContent="The temperature is "+data.temperature+" degree celsius. But it feels like "+data.Feels_like+" degree celsius"
         }
-        setTimeout(()=>{
-            message1.textContent="Input new Location"
-            message2.textContent=""
-        }, 5000)
     })
 })
 
